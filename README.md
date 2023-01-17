@@ -12,4 +12,4 @@
 * window.scrollY
 
 ### Live Website Link
-<a href=''>Click</a>
+<a href='https://rejoyanislam.github.io/hide-navbar-on-scroll-with-responsive-navbar/'>Click</a>
