@@ -1,8 +1,8 @@
 const menu=document.getElementById('menu')
-
 const menuBtn=document.getElementById('menuBtn')
 const header=document.getElementById('header')
 
+// menu toggle
 let result=false
 menuBtn.onclick=()=>{
     if(!result){
@@ -14,8 +14,9 @@ menuBtn.onclick=()=>{
     }
     
 }
-let beforeScroll=0
 
+// hide on scroll
+let beforeScroll=0
 window.onscroll=()=>{
     let newScroll=window.scrollY
     if(newScroll<beforeScroll){
